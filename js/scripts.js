@@ -70,7 +70,7 @@
 		},
         loop: true,
         spaceBetween: 50,
-        slidesPerView: 5,
+        slidesPerView: 2,
 		breakpoints: {
             // when window is <= 575px
             575: {
@@ -79,17 +79,17 @@
             },
             // when window is <= 767px
             767: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 20
             },
             // when window is <= 991px
             991: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 20
             },
             // when window is <= 1199px
             1199: {
-                slidesPerView: 4,
+                slidesPerView: 2,
                 spaceBetween: 20
             },
 

@@ -634,25 +634,26 @@ input[type='checkbox'] {
 /********************/
 /*    Customers     */
 /********************/
-.slider-1 {
+.slider-custom {
 	padding-top: 3.5rem;
 	padding-bottom: 3rem;
 	text-align: center;
 }
 
-.slider-1 h4 {
+.slider-custom h4 {
 	margin-bottom: 0.25rem;
 	color: #222222;
 }
 
-.slider-1 .section-divider {
+.slider-custom .section-divider {
 	margin-bottom: 1rem;
 }
 
-.slider-1 .slider-container {
+.slider-custom .slider-container {
 	margin-bottom: 0.5rem;
 	padding: 1rem 0;
 }
+
 
 
 /************************/
@@ -1356,6 +1357,8 @@ a:hover.back-to-top {
 		display: inline-block;
 		width: 290px;
 		vertical-align: top;
+		margin-left: auto !important;
+		margin-left: auto !important;
 	}
 	
 	.cards-1 .card:nth-of-type(3n+2) {
