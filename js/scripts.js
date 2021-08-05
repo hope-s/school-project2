@@ -118,6 +118,28 @@
         }
     });
 
+    /* Honor slider */
+	var cardSlider = new Swiper('.honor-slider', {
+		autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+		},
+        loop: true,
+        navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev'
+		},
+		slidesPerView: 2,
+		spaceBetween: 40,
+        breakpoints: {
+            // when window is <= 991px
+            991: {
+                slidesPerView: 1
+            }
+        }
+    });
+
+
 
     /* Counter - CountTo */
 	var a = 0;
@@ -370,3 +392,27 @@ const DOMstrings = {
     
   //   setAnimationType(newAnimationType);
   // });
+
+
+
+// zoom gallery
+function imageZoom(){
+  var $zoomimg = $('img.zoomimg');
+  $zoomimg.on('click',function(e){
+    e.stopPropagation();
+    $(this).after('<div id="imgZoomDiv"><div><img src="" class="zoomed" /></div></div>');
+    var $t = $(this);
+    $('.zoomed').attr({src: $t.attr('data-src')});
+    // $('#imgZoomDiv').animate({opacity:"1"}, 250).show();
+    $('#imgZoomDiv').show();
+
+    $('#imgZoomDiv > div').hide().prepend('<i class="bi bi-x close"></i>').fadeIn(500);// add close button
+
+  });
+  $(document).on('click', '#imgZoomDiv', function(e){
+    e.preventDefault();
+    $(this).hide().remove();
+  });
+};
+imageZoom();
+// end  of  zoom gallery
