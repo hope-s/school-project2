@@ -40,10 +40,9 @@ html {
 	height: 100%;
 }
 
-body{
+/* body{
 	overflow-x: hidden !important;
-
-}
+} */
 
 body,
 p {
@@ -760,6 +759,7 @@ input[type='checkbox'] {
 /************************/
 /*     Introduction     */
 /************************/
+
 .basic-1 {
 	padding-top: 5.25rem;
 	padding-bottom: 10rem;
@@ -1406,6 +1406,28 @@ input[type='checkbox'] {
 	margin-bottom: 1.75rem;
 }
 
+/*********************/
+/*     basic        */
+/*********************/
+
+.basic {
+	padding-top: 5rem;
+	padding-bottom: 9.5rem;
+	background: url('../images/details-3-background.png') center center no-repeat;
+	background-size: cover;
+}
+
+.basic h2 {
+	margin-bottom: 1.5rem;
+}
+
+.basic .image-container {
+	margin-bottom: 3.5rem;
+}
+
+/* .basic p {
+	margin-bottom: 1.75rem;
+} */
 
 /************************/
 /*     Testimonials     */
@@ -1529,7 +1551,6 @@ input[type='checkbox'] {
 /*     Footer     */
 /******************/
 .footer {
-	margin-top: 5rem;
 	padding-top: 5.5rem;
 	padding-bottom: 1.5rem;
 	background-color: #00a593;
@@ -2597,6 +2618,16 @@ a:hover.back-to-top {
 
 	/* end of features */
 
+	/* Details  */
+	.basic .image-container {
+		margin-bottom: 0;
+	}
+
+	.basic .text-container {
+		margin-top: 3.5rem;
+		text-align: center !important;
+	}
+	/* Details */
 
 	/* Details 1 */
 	.basic-2 .image-container {
@@ -2649,17 +2680,8 @@ a:hover.back-to-top {
 
 
 	/* Details 5 */
-	.basic-5 .image-container {
-		margin-bottom: 0;
-	}
-
-	.basic-5 .text-container {
-		margin-top: 3.5rem;
-		text-align: center !important;
-	}
-
+ 
 	/* end of details 5 */
-
 
 
 	/* Testimonials */
