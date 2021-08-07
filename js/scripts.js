@@ -96,6 +96,17 @@
     }
   });
 
+    /* Image Slider - Swiper */
+    var imageSlider = new Swiper('.image-slider2', {
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
+      loop: true,
+      spaceBetween: 50,
+      slidesPerView: 1,
+    });
+  
 
   /* Card Slider - Swiper */
   var cardSlider = new Swiper('.card-slider', {
