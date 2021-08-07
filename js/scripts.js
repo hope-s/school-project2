@@ -431,3 +431,37 @@ var swiper = new Swiper('.blog-slider', {
     clickable: true,
   }
 });
+
+// loader
+loader();
+
+function loader(success) {
+  var obj = document.querySelector('.preloader'),
+    inner = document.querySelector('.preloader_inner'),
+    page = document.querySelector('body');
+  obj.classList.add('show');
+  page.classList.remove('show');
+  var w = 0,
+    t = setInterval(function () {
+      w = w + 1;
+      inner.textContent = w + '%';
+      if (w === 100) {
+        obj.classList.remove('show');
+        obj.classList.add('opacity-sajjeo');
+        page.classList.add('show');
+        clearInterval(t);
+        w = 0;
+        if (success) {
+          return success();
+        }
+      }
+    }, 10);
+}
+// 
+
+// typed.js demo
+var typed = new Typed('.typed', {
+  stringsElement: '.typed-strings',
+  typeSpeed: 30
+  
+});
