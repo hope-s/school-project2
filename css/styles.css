@@ -2040,8 +2040,13 @@ a:hover.back-to-top {
 	height: auto;
 }
 
-.image-clearfix {
+.card-image-clearfix {
 	height: 210px !important;
+	width: 100%;
+}
+
+.image-clearfix {
+	height: 280px !important;
 	width: 100%;
 }
 
