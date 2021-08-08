@@ -2680,7 +2680,15 @@ a:hover.back-to-top {
 
 
 	/* Details 5 */
- 
+	.basic-5 .image-container {
+		margin-bottom: 0;
+	}
+
+	.basic-5 .text-container {
+		margin-top: 3.5rem;
+		text-align: center !important;
+	}
+
 	/* end of details 5 */
 
 
