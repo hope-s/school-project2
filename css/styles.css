@@ -40,9 +40,9 @@ html {
 	height: 100%;
 }
 
-body {
+/* body {
 	overflow-x: hidden !important;
-}
+} */
 
 body,
 p {
@@ -670,7 +670,7 @@ input[type='checkbox'] {
 
 .header h2 {
 	color: #fff !important;
-	margin-top: 10rem !important;
+	margin-top: 14rem !important;
 }
 
 .header .p-large {
@@ -1153,6 +1153,11 @@ input[type='checkbox'] {
 	margin-bottom: 3.5rem;
 }
 
+.text-container {
+	margin-top: 3.5rem;
+	text-align: center !important;
+}
+
 /* .basic p {
 	margin-bottom: 1.75rem;
 } */
@@ -1238,42 +1243,12 @@ input[type='checkbox'] {
 
 
 /**********************/
-/*     Newsletter     */
+/*     contact-us     */
 /**********************/
-.form-1 {
-	padding-top: 9.5rem;
-	padding-bottom: 8.5rem;
-	text-align: center;
-}
 
-.form-1 .h2-heading {
-	margin-bottom: 0.75rem;
+.contact-us .bi{
+	font-size: 25px;
 }
-
-.form-1 .p-heading {
-	margin-bottom: 3rem;
-}
-
-.form-1 .label-control {
-	left: 2.125rem;
-}
-
-.form-1 .form-control-input {
-	padding-top: 1.25rem;
-	padding-bottom: 0.25rem;
-	padding-left: 2rem;
-	border-radius: 32px;
-	background-color: #ffffff;
-}
-
-.form-1 .form-control-submit-button {
-	height: 3.5rem;
-}
-
-.form-1 .label-control {
-	top: 1rem;
-}
-
 
 /******************/
 /*     Footer     */
@@ -1619,7 +1594,7 @@ a:hover.back-to-top {
 	-o-transform: translate(0, -50%);
 }
 
-.card-news .read-btn {
+.card-news .btn-primary {
 	transform: translateY(120%);
 	-webkit-transform: translateY(120%);
 	-moz-transform: translateY(120%);
@@ -1634,7 +1609,7 @@ a:hover.back-to-top {
 	text-decoration: none;
 }
 
-.card .wrapper-new:hover .read-btn {
+.card .wrapper-new:hover .btn-primary{
 	transform: translateY(150%);
 	-webkit-transform: translateY(150%);
 	-moz-transform: translateY(150%);
@@ -2754,7 +2729,6 @@ a:hover.back-to-top {
 
 	/* end of introduction */
 
-
 	/* Features */
 	.cards-1 .card {
 		display: inline-block;
@@ -2792,11 +2766,6 @@ a:hover.back-to-top {
 	/* Details  */
 	.basic .image-container {
 		margin-bottom: 0;
-	}
-
-	.basic .text-container {
-		margin-top: 3.5rem;
-		text-align: center !important;
 	}
 
 	/* Details */
@@ -3103,6 +3072,18 @@ a:hover.back-to-top {
 	.slider-custom {
 		margin-top: 13rem;
 	}
+
+	/* card news */
+	.card-news{
+		margin-left: 3rem !important;
+		margin-right: 3rem !important;
+	}
+
+	.card-news .btn{
+		padding: 5px;
+	}
+	/* end of card news */
+	
 
 }
 
