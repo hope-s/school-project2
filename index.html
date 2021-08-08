@@ -235,7 +235,7 @@
             <div class="row">
                 <div class="col-12 d-flex flex-wrap flex-md-nowrap justify-content-center">
                     <!-- Card -->
-                    <div class="card col-12 col-md-6">
+                    <div class="card card-hover col-12 col-md-6">
                         <div class="card-icon-wrapper">
                             <div class="card-icon">
                                 <span class="bi bi-cast green"></span>
@@ -250,7 +250,7 @@
                     <!-- end of card -->
 
                     <!-- Card -->
-                    <div class="card col-12 col-md-6">
+                    <div class="card card-hover col-12 col-md-6">
                         <div class="card-icon-wrapper">
                             <div class="card-icon">
                                 <span class="bi bi-laptop blue"></span>
@@ -269,7 +269,7 @@
             <div class="row">
                 <div class="col-12 d-flex flex-wrap flex-md-nowrap justify-content-center">
                     <!-- Card -->
-                    <div class="card col-12 col-md-6">
+                    <div class="card card-hover col-12 col-md-6">
                         <div class="card-icon-wrapper">
                             <div class="card-icon">
                                 <span class="bi bi-person-square green"></span>
@@ -284,7 +284,7 @@
                     <!-- end of card -->
 
                     <!-- Card -->
-                    <div class="card col-12 col-md-6">
+                    <div class="card card-hover col-12 col-md-6">
                         <div class="card-icon-wrapper">
                             <div class="card-icon">
                                 <span class="bi bi-easel purple"></span>
@@ -304,87 +304,103 @@
     <!-- end of features -->
     
     <div id="rigsterform"></div>
-    <div class="row mt-5 mb-5">
-        <div class="col-12 justify-content-center">
-            <div class="content__inner">
-                <div class="container">
-                    <!--content title-->
-                    <h2 class="content__title"> پیش ثبت نام  </h2>
+    
+    <!-- rigster modal -->
+    <div class="container">
+        <!-- Image Slider -->
+        <div class="text-center mt-5">
+            <h2> پیش ثبت نام </h5>
+        </div> <!-- end of text-container  -->    
+            <!-- Button trigger modal -->
+            <button type="button" class="btn-solid-lg d-block mx-auto w-25 mt-5" data-toggle="modal" data-target="#Modal1">
+                برای پیش ثبت نام کلیک کنید
+            </button>
+        
+            <!-- Modal -->
+            <div class="modal fade" id="Modal1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 class="modal-title" id="Modal1Label"><i class="bi bi-pencil-fill"></i> مقدمه </h5>
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text">
+                            با توجه به شرایط حال حاضر و جلوگیری از شیوع ویروس کرونا و همچنین حفظ سلامتی شما عزیزان ، ثبت نام دانش آموز عزیزمان به صورت غیرحضوری انجام می شود . در صورت انتخاب مجموعه مدرسه نمونه مکتبخانه جهت ادامه تحصیل فرزندتان در پایه های هفتم ، هشتم و نهم ، نسبت به تکمیل این فرم اقدام نمائید.
+                            سامانه پیش ثبت نام الکترونیک، یکی از خدمات مکتبخانه برای مدرسه‌هاست که به شما اجازه می‌دهد از طریق یک سیستم گردش کار بسیار ساده و قدرتمند، تمام فرایندهای مورد نیاز خود را در قالب فرم‌های پیشرفته طراحی کنید، این سامانه کاملا مطابق با نیاز مدارس پیاده‌سازی شده و از انواع فرم و گزارش‌های مختلف پشتیبانی می‌کند. این سیستم به مدارس اجازه می‌دهد فرم‌های مورد نیاز خود را به صورت کاملا دلخواه پیاده‌سازی کرده و انواع فرایندهای لازم، مثل ثبت نام اینترنتی یا پیش ثبت‌نام، فرم‌های دریافت شهریه و... را به سادگی طراحی کنند، ضمنا این نرم‌افزار کاملا یکپارچه با سامانه‌ی مکتبخانه طراحی شده و قابلیت اتصال به سایر زیر سیستم‌های مکتبخانه را دارد.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary rounded-pill d-block mx-auto w-50 mt-5" data-toggle="modal" data-dismiss="modal" data-target="#Modal2">
+                        مرحله بعدی
+                    </button>
+                
+                    </div>
                 </div>
-                <div>
-                    <!--multisteps-form-->
-                    <div class="multisteps-form">
-                        <!--progress bar-->
-                        <div class="multisteps-form__progress">
-                            <button class="multisteps-form__progress-btn js-active multisteps-form__progress-btn1" type="button"
-                                > مقدمه </button>
-                            <button class="multisteps-form__progress-btn multisteps-form__progress-btn2" type="button"> توضیحات </button>
-                            <button class="multisteps-form__progress-btn multisteps-form__progress-btn3" type="button"> مرحله نهایی </button>
-                        </div>                                    <!--form panels-->
-                        <div class="row">
-                            <div class="col-9 mx-auto">
-                                <form class="multisteps-form__form">
-                                    <!--single form panel-->
-                                    <div class="multisteps-form__panel js-active"
-                                        data-animation="scaleIn">
-                                        <div class="multisteps-form__content">
-                                            <p>
-                                                با توجه به شرایط حال حاضر و جلوگیری از شیوع ویروس کرونا و همچنین حفظ سلامتی شما عزیزان ، ثبت نام دانش آموز عزیزمان به صورت غیرحضوری انجام می شود .
-                                                در صورت انتخاب مجموعه مدرسه نمونه مکتبخانه جهت ادامه تحصیل فرزندتان در پایه های هفتم ، هشتم و نهم ، نسبت به
-                                                تکمیل این فرم اقدام نمائید.   
-                                                <br>
-                                                سامانه پیش ثبت نام الکترونیک، یکی از خدمات مکتبخانه برای مدرسه‌هاست که به شما اجازه می‌دهد از طریق یک سیستم گردش کار بسیار ساده و قدرتمند، تمام فرایندهای مورد نیاز خود را در قالب فرم‌های پیشرفته طراحی کنید، این سامانه کاملا مطابق با نیاز مدارس پیاده‌سازی شده و از انواع فرم و گزارش‌های مختلف پشتیبانی می‌کند.
-                                                این سیستم به مدارس اجازه می‌دهد فرم‌های مورد نیاز خود را به صورت کاملا دلخواه پیاده‌سازی کرده و انواع فرایندهای لازم، مثل ثبت نام اینترنتی یا پیش ثبت‌نام، فرم‌های دریافت شهریه و... را به سادگی طراحی کنند، ضمنا این نرم‌افزار کاملا یکپارچه با سامانه‌ی مکتبخانه طراحی شده و قابلیت اتصال به سایر زیر سیستم‌های مکتبخانه را دارد. 
-                                            </p>
-                                            <div class="button-row d-flex mt-4">
-                                                <button class="js-btn-next btn-solid-sm mx-auto" type="button"> مرحله بعدی </button>
-                                            </div>                                    
-                                        </div> <!-- end multisteps-content -->
-                                    </div><!-- end multisteps-form__panel -->
+                </div>
+            </div>
+        
+            <div class="modal fade" id="Modal2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 class="modal-title" id="Modal2Label"><i class="bi bi-chat-square-text-fill"></i> توضیحات </h5>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="modal-text">
+                            <li>امکان طراحی آسان و نمایش انواع فرم‌های مورد نیاز مدارس</li>
+                            <li>پشتیبانی از انواع گزینه‌های لازم در یک فرم (کادر، چند انتخابی، گزینه‌ای و…)</li>
+                            <li>قابلیت اتصال به سامانه‌ی مکتبخانه و ارسال اطلاع‌رسانی‌ها با پیامک یا ایمیل</li>
+                            <li>امکان ارسال و دریافت اطلاعات با سایر زیر سیستم‌های نرم‌افزار مکتبخانه</li>
+                            <li>پیاده‌سازی راحت تمام قوانین و سیاست‌های مدرسه در فرم‌های طراحی شده</li>
+                            <li>یکپارچه با سیستم مالی مکتبخانه و امکان پرداخت شهریه‌ها از طریق درگاه آنلاین</li>
+                            <li>قابلیت دریافت انواع گزارشات مورد نیاز مدرسه در محیطی ساده و قدرتمند</li>
+                            <li>امکان استفاده در انواع دستگاه‌ها، مثل موبایل، تبلت، لپ‌تاپ و کامپیوتر</li>
+                            <li>استفاده از الگوریتم‌های پیشرفته برای حفظ امنیت اطلاعات ثبت شده</li>
+                            <li>تعریف رویدادهای مختلف برای هر فرایند (مثلا ثبت دانش‌آموز در لیست، با تکمیل فرم)</li>
+                            <li>امکان طراحی فرم‌های گام به گام برای دریافت مرحله‌ای اطلاعات (مثلا اطلاعات پایه، اطلاعات والدین، پرداخت شهریه و…)</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-primary rounded-pill d-block mx-auto w-50 mt-5" data-toggle="modal" data-dismiss="modal" data-target="#Modal3">
+                            مرحله سوم
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="modal fade" id="Modal3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="Modal3Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h5 class="modal-title" id="Modal3Label"><i class="bi bi-check-lg"></i> مرحله نهایی </h5>
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-text">
+                            کاربر گرامی در حال حاضر شما می توانید با کلیک بر روی دکمه زیر پیش ثبت نام خود را انجام دهید.
+                        </p>
+                        <a href="http://p4.maktabsoft.ir/7070/data/forms/pish/" class="btn-solid-sm" target="_blank"> لینک پیش ثبت نام </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary rounded-pill d-block mx-auto w-50 mt-5" data-toggle="modal" data-dismiss="modal" data-target="#Modal2">
+                            بازگشت به مرحله قبل
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
                                     
-                                    <div class="multisteps-form__panel"
-                                        data-animation="scaleIn">
-                                        <div class="multisteps-form__content">
-                                            <ul>
-                                                <li>امکان طراحی آسان و نمایش انواع فرم‌های مورد نیاز مدارس</li>
-                                                <li>پشتیبانی از انواع گزینه‌های لازم در یک فرم (کادر، چند انتخابی، گزینه‌ای و…)</li>
-                                                <li>قابلیت اتصال به سامانه‌ی مکتبخانه و ارسال اطلاع‌رسانی‌ها با پیامک یا ایمیل</li>
-                                                <li>امکان ارسال و دریافت اطلاعات با سایر زیر سیستم‌های نرم‌افزار مکتبخانه</li>
-                                                <li>پیاده‌سازی راحت تمام قوانین و سیاست‌های مدرسه در فرم‌های طراحی شده</li>
-                                                <li>یکپارچه با سیستم مالی مکتبخانه و امکان پرداخت شهریه‌ها از طریق درگاه آنلاین</li>
-                                                <li>قابلیت دریافت انواع گزارشات مورد نیاز مدرسه در محیطی ساده و قدرتمند</li>
-                                                <li>امکان استفاده در انواع دستگاه‌ها، مثل موبایل، تبلت، لپ‌تاپ و کامپیوتر</li>
-                                                <li>استفاده از الگوریتم‌های پیشرفته برای حفظ امنیت اطلاعات ثبت شده</li>
-                                                <li>تعریف رویدادهای مختلف برای هر فرایند (مثلا ثبت دانش‌آموز در لیست، با تکمیل فرم)</li>
-                                                <li>امکان طراحی فرم‌های گام به گام برای دریافت مرحله‌ای اطلاعات (مثلا اطلاعات پایه، اطلاعات والدین، پرداخت شهریه و…)</li>
-                                            </ul>
-                                            <div class="mt-4 multisteps-form-btns">
-                                                <button class="js-btn-prev btn btn-outline-danger p-2 rounded-pill m-1" type="button"> مرحله قبل </button>
-                                                <button class="js-btn-next btn-solid-sm" type="button"> مرحله بعد </button>
-                                            </div>                                    
-                                        </div> <!-- end multisteps-form__content -->
-                                    </div> <!-- end multisteps-form__panel -->
+    </div>  <!-- end of -->
 
-                                    <div class="multisteps-form__panel"
-                                        data-animation="scaleIn">
-                                        <div class="multisteps-form__content">
-                                            <p class="multisteps-form__description">
-                                                کاربر گرامی در حال حاضر شما می توانید با کلیک بر روی دکمه زیر پیش ثبت نام خود را انجام دهید.
-                                                <a href="http://p4.maktabsoft.ir/7070/data/forms/pish/" class="btn-hover-blue" style="padding: 3px; margin-top: 4px;" target="_blank"> لینک پیش ثبت نام </a>
-                                            </p>
-                                            <div class="mt-4 multisteps-form-btns">
-                                                <button class="js-btn-prev  btn btn-outline-danger p-2 rounded-pill" type="button"> مرحله قبل </button>
-                                            </div>                                    
-                                        </div> <!-- end multisteps-form__content -->
-                                    </div> <!-- end multisteps-form__panel -->
-                                </form> <!-- end multisteps-form__form -->
-                            </div> <!-- end col -->
-                        </div>  <!-- end row -->
-                    </div> <!-- end of multisteps-form --> 
-                </div>  <!-- end of div --> 
-            </div> <!-- end of content__inner --> 
-        </div>  <!-- end of col --> 
-    </div> <!-- end row -->
 
     <!-- news  -->
     <!-- news-1  -->
@@ -663,83 +679,81 @@
 
     <!-- Details 5 -->
     <div class="basic-5" dir="ltr" id="courses">
+        <!-- Details 4 -->
         <div class="container">
-            <!-- Details 4 -->
-            <div class="basic-5">
-                <!-- Image Slider -->
-                    <div class="text-container">
-                        <h2> دوره های آموزشی </h5>
-                    </div>
-                    <div class="blog-slider">
-                        <div class="blog-slider__wrp swiper-wrapper">
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="blog-slider__img">
-                                <img src="images/course1.jpg" alt="img">
-                            </div>  <!-- blog-slider__img -->
-                            <div class="blog-slider__content">
-                                <!-- <span class="blog-slider__code">ناریخ</span> -->
-                                <div class="blog-slider__title"> کلاس زبان انگلیسی </div>
-                                <div class="blog-slider__text">
-                                    در ادامه هر آنچه در مورد یادگیری و آموزش زبان انگلیسی لازم است را به شما می گوییم.
-                                    سپس به شما کمک می کنیم تا بتوانید به بهترین شکل ممکن انگلیسی را یادبگیرید.
-                                    تصور کنید اکنون به زبان انگلیسی مسلط هستید چه احساسی خواهید داشت؟
-                                    شما می توانید به راحتی با افراد مختلف از کشورهای مختلف ارتباط برقرار کنید
-                                    گزینه های بسیار مناسب شغلی برای شما فراهم می شود
-                                    به راحتی می توانید به انگلیسی بنویسید و برای شغل مناسب خود اپلای کنید 
-                                </div> <!-- blog-slider__text -->
-                                <a href="#" class="blog-slider__button"> ثبت نام </a>
-                            </div> <!--end of blog-slider__content -->
-                        </div> <!-- end of blog-slider__item -->
-
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="blog-slider__img">
-                            <img src="images/course2.jpg" alt="img">
-                            </div> <!-- end of blog-slider__img -->
-                            <div class="blog-slider__content">
-                            <!-- <span class="blog-slider__code">تاریخ</span> -->
-                            <div class="blog-slider__title"> کلاس تست کنکور </div>
-                            <div class="blog-slider__text"> 
-                                با تکنیک های ما هر تستی را از پای در میارید!
-                                کنکور خیلی آسونه!
-                                دین و زندگی را با 120 دقیقه آموزش 100 درصد بزنید!
-                                با نگاه تست های ریاضی و فیزیک را خواهید زد!
-                                تضمین درصد 100 شما در تمام دروس با عقد قرار داد رسمی! 
+            <!-- Image Slider -->
+                <div class="text-container">
+                    <h2> دوره های آموزشی </h5>
+                </div>
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="images/course1.jpg" alt="img">
+                        </div>  <!-- blog-slider__img -->
+                        <div class="blog-slider__content">
+                            <!-- <span class="blog-slider__code">ناریخ</span> -->
+                            <div class="blog-slider__title"> کلاس زبان انگلیسی </div>
+                            <div class="blog-slider__text">
+                                در ادامه هر آنچه در مورد یادگیری و آموزش زبان انگلیسی لازم است را به شما می گوییم.
+                                سپس به شما کمک می کنیم تا بتوانید به بهترین شکل ممکن انگلیسی را یادبگیرید.
+                                تصور کنید اکنون به زبان انگلیسی مسلط هستید چه احساسی خواهید داشت؟
+                                شما می توانید به راحتی با افراد مختلف از کشورهای مختلف ارتباط برقرار کنید
+                                گزینه های بسیار مناسب شغلی برای شما فراهم می شود
+                                به راحتی می توانید به انگلیسی بنویسید و برای شغل مناسب خود اپلای کنید 
                             </div> <!-- blog-slider__text -->
                             <a href="#" class="blog-slider__button"> ثبت نام </a>
-                            </div>  <!--end of blog-slider__content -->
-                        </div> <!-- end of blog-slider__item -->
-                        
-                        <div class="blog-slider__item swiper-slide">
-                            <div class="blog-slider__img">
-                                <img src="images/course3.jpg" alt="img">
-                            </div> <!-- end of blog-slider__img -->
-                            <div class="blog-slider__content">
-                            <!-- <span class="blog-slider__code">تاریخ</span> -->
-                            <div class="blog-slider__title"> کلاس کامپیوتر </div>
-                            <div class="blog-slider__text">
+                        </div> <!--end of blog-slider__content -->
+                    </div> <!-- end of blog-slider__item -->
 
-                                اگر می خواهید کامپیوتر را از ابتدا آموزش ببینید و بعد از آن یک مدرک icdl فنی حرفه ای جهت مهاجرت و یا استخدام دریافت کنید، باید عرض کنیم که دوره آموزشی خود را به درستی انتخاب کرده اید.                            
-                            </div>  <!-- blog-slider__text -->
-                            <a href="#" class="blog-slider__button">ثبت نام</a>
-                            </div> <!--end of blog-slider__content -->
-                        </div> <!-- end of blog-slider__item -->
-                        
-                        </div> <!-- end of log-slider__wrp -->
-                        <div class="blog-slider__pagination"></div>
-                    </div> <!-- end of blog-slider -->
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                        <img src="images/course2.jpg" alt="img">
+                        </div> <!-- end of blog-slider__img -->
+                        <div class="blog-slider__content">
+                        <!-- <span class="blog-slider__code">تاریخ</span> -->
+                        <div class="blog-slider__title"> کلاس تست کنکور </div>
+                        <div class="blog-slider__text"> 
+                            با تکنیک های ما هر تستی را از پای در میارید!
+                            کنکور خیلی آسونه!
+                            دین و زندگی را با 120 دقیقه آموزش 100 درصد بزنید!
+                            با نگاه تست های ریاضی و فیزیک را خواهید زد!
+                            تضمین درصد 100 شما در تمام دروس با عقد قرار داد رسمی! 
+                        </div> <!-- blog-slider__text -->
+                        <a href="#" class="blog-slider__button"> ثبت نام </a>
+                        </div>  <!--end of blog-slider__content -->
+                    </div> <!-- end of blog-slider__item -->
+                    
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="images/course3.jpg" alt="img">
+                        </div> <!-- end of blog-slider__img -->
+                        <div class="blog-slider__content">
+                        <!-- <span class="blog-slider__code">تاریخ</span> -->
+                        <div class="blog-slider__title"> کلاس کامپیوتر </div>
+                        <div class="blog-slider__text">
 
-                <!-- end of image slider -->
-            </div>  <!-- end of details 4 -->
-        </div> <!-- end of container -->
+                            اگر می خواهید کامپیوتر را از ابتدا آموزش ببینید و بعد از آن یک مدرک icdl فنی حرفه ای جهت مهاجرت و یا استخدام دریافت کنید، باید عرض کنیم که دوره آموزشی خود را به درستی انتخاب کرده اید.                            
+                        </div>  <!-- blog-slider__text -->
+                        <a href="#" class="blog-slider__button">ثبت نام</a>
+                        </div> <!--end of blog-slider__content -->
+                    </div> <!-- end of blog-slider__item -->
+                    
+                    </div> <!-- end of log-slider__wrp -->
+                    <div class="blog-slider__pagination"></div>
+                </div> <!-- end of blog-slider -->
+
+            <!-- end of image slider -->
+        </div>  <!-- end of details 4 -->
     </div> <!-- end of basic-4 -->
     <!-- end of details 4 -->
 
 
-    <!-- Details 5 -->
+    <!-- Details 6 -->
     <div class="basic" dir="ltr">
         <div class="container">
             <!-- Details 4 -->
-            <div class="basic">
+            <div class="basic py-0">
                 <!-- Image Slider -->
                 <div class="text-container">
                     <h2> در باره مدرسه </h5>
@@ -928,54 +942,62 @@
 
 
     <!-- contact us -->
-	<div class="basic">
-		<div class="container text-container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading"> راه های ارتباطی با ما </h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <a href="tel:02171059" class="btn btn-outline-primary btn rounded-pill"> ۰۲۱-۷۱۰۵۹ </a>                    
-                    <a href="mailto:school@gmail.com" class="btn-solid-md rounded-pil"> school@gmail.com </a>                    
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row justify-content-center mt-5">
-                <div class="col-lg-6">
-                    <div class="card border border-primary rounded-lg text-right">
-                        <div class="card-body border-primary">
-                            <div>
-                                <h6><i class="bi bi-pin-map"></i> آدرس </h6>
-                                <p>
-                                    شهرک غرب- تقاطع بلوار فرحزادی و نیایش – روبروی مجتمع اریکه ایرانیان- خیابان تربیت معلم- پلاک 36
-                                </p>
-                            </div>
-                            <div>
-                                <h6><i class="bi bi-building"></i> کد پستی </h6>
-                                <p>123456789</p>
-                            </div>
-                            <div>
-                                <h6><i class="bi bi-telephone"></i> تماس با ما </h6>
-                                <p>۰۲۱-۷۱۰۵۹ (8 الی 16)</p>
-                            </div>
-                        </div> <!-- end of card-body -->
-                    </div> <!-- end of card -->
-                </div> <!--col-lg-6 -->
-    
-                <div class="col-lg-6">
-                    <div class="">
-                        <div class="card border border-primary m-1 rounded-lg">
-                            <div class="card-body border-primary">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51798.70823857853!2d51.42582256733784!3d35.765076124594835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e05eecd72556f%3A0xe3cd9e450b21527b!2z2YXYrNmF2YjYudmHINmF2K_Yp9ix2LMg2LPZhNin2YU!5e0!3m2!1sfa!2s!4v1627111174242!5m2!1sfa!2s" width="490"  height="230" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end of container -->
-            </div> <!-- end of form-1 -->
+	<div class="basic py-0">
+	    <div class=" text-container">
+	        <div class="wrapper-profile">
+	            <div class="profile-card js-profile-card">
+	                <div class="profile-card__img">
+	                    <img src="images/logo.png" alt="profile card">
+	                </div>
 
-        </div> <!-- end of container -->
-    </div> <!-- end of form-1 -->
+	                <div class="profile-card__cnt js-profile-cnt">
+	                    <div class="profile-card__name"></div>
+	                    <div class="profile-card__txt">
+	                        <h2 class="h2-heading"> راه های ارتباطی با ما </h2>
+	                        <div class="profile-card-ctr">
+	                            <a href="tel:02171059" class="profile-card__button button--blue"> ۰۲۱-۷۱۰۵۹ </a>
+	                            <br>
+	                            <a href="mailto:school@gmail.com" class="profile-card__button button--gray">
+	                                school@gmail.com </a>
+	                        </div>
+
+	                        <div class="card-body border-primary">
+	                            <div>
+	                                <h6><i class="bi bi-pin-map"></i> آدرس </h6>
+	                                <p>
+	                                    شهرک غرب- تقاطع بلوار فرحزادی و نیایش – روبروی مجتمع اریکه ایرانیان- خیابان تربیت
+	                                    معلم- پلاک 36
+	                                </p>
+	                            </div>
+	                            <div>
+	                                <h6><i class="bi bi-building"></i> کد پستی </h6>
+	                                <p>123456789</p>
+	                            </div>
+	                            <div>
+	                                <h6><i class="bi bi-telephone"></i> تماس با ما </h6>
+	                                <p>۰۲۱-۷۱۰۵۹ (8 الی 16)</p>
+	                            </div>
+	                        </div> <!-- end of card-body -->
+	                    </div>
+
+                        <div class="col-12">
+	                        <div class="">
+	                            <div class=" rounded-lg">
+	                                <div class="card-body border-primary">
+	                                    <iframe
+	                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51798.70823857853!2d51.42582256733784!3d35.765076124594835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e05eecd72556f%3A0xe3cd9e450b21527b!2z2YXYrNmF2YjYudmHINmF2K_Yp9ix2LMg2LPZhNin2YU!5e0!3m2!1sfa!2s!4v1627111174242!5m2!1sfa!2s"
+	                                        width="490" height="230" style="border:0;" allowfullscreen=""
+	                                        loading="lazy"></iframe>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div> <!-- end of container -->
+
+	                </div>
+	            </div>
+	        </div>
+	    </div> <!-- end of container -->
+	</div> <!-- end of form-1 -->
     <!-- end of newsletter -->
 
     <!-- Footer -->

@@ -61,7 +61,7 @@
     background-image: url(../../../images/course3.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../../../images/course3.jpg);
+    background-image: url(../../../images/course1.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -93,7 +93,7 @@
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(../../../images/details-1-background.png);
+    background-image: url(../../../images/course1.jpg);
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
