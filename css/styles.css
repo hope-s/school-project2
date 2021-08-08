@@ -695,6 +695,7 @@ input[type='checkbox'] {
 }
 
 .slider-custom h4 {
+	margin-top: 8rem;
 	margin-bottom: 0.25rem;
 	color: #222222;
 }
@@ -1175,7 +1176,8 @@ input[type='checkbox'] {
 	background-color: #007bff;
 	border: 0.5px solid #007bff;
 	color: #fff;
-	padding: 7px;
+	padding: 7px
+	text-decoration: none !important;
 	white-space: nowrap;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -1196,30 +1198,6 @@ input[type='checkbox'] {
 	background-color: #fff;
 }
 
-.btn-hover-danger {
-	background-color: #ec008c;
-	border: 0.5px solid #ec008c;
-	color: #fff;
-	padding: 7px;
-	white-space: nowrap;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
-	margin: 5px;
-	transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	-webkit-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	-moz-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	-ms-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	-o-transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.btn-hover-danger:hover {
-	border: 0.5px solid #ec008c;
-	color: #000;
-	background-color: #fff;
-}
 
 .btn-hover-seccess {
 	background-color: #05DBF2;
@@ -1683,6 +1661,7 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8.5rem;
 	padding-bottom: 4rem;
+	margin-bottom: 10rem;
 	background-color: #f9f9f9;
 }
 
@@ -2458,7 +2437,6 @@ a:hover.back-to-top {
 /*************************/
 /* Min-width 768px */
 @media (min-width: 768px) {
-
 	/* Header */
 	.header .btn-solid-lg {
 		margin-bottom: 0;
@@ -2955,6 +2933,13 @@ a:hover.back-to-top {
 	iframe {
 		width: 100% !important;
 	}
+}
+
+@media only screen and (max-width: 992px){
+	.slider-custom {
+		margin-top: 13rem;
+	}
+
 }
 
 /* end of min-width 1200px */
