@@ -96,6 +96,10 @@ h6 {
 	line-height: 1.5rem;
 }
 
+.btn{
+	text-decoration: none !important;
+}
+
 .h1-large {
 	font-size: 2.75rem;
 	line-height: 3.5rem;
@@ -652,23 +656,25 @@ input[type='checkbox'] {
 /*****************/
 /*    Header     */
 /*****************/
-.header {
+/* .header {
 	padding-top: 7rem;
 	padding-bottom: 2.5rem;
 	background: url('../images/header-background.png') center center no-repeat;
 	background-size: cover;
-}
+} */
 
 .header .text-container {
 	margin-bottom: 4rem;
+	color: #fff !important;
 }
 
-.header .h1-large {
-	margin-bottom: 1.5rem;
+.header h2 {
+	color: #fff !important;
 }
 
 .header .p-large {
 	margin-bottom: 2rem;
+	color: #fff !important;
 }
 
 .header .btn-solid-lg {
