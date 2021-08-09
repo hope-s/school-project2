@@ -666,16 +666,17 @@ input[type='checkbox'] {
 .header .text-container {
 	margin-bottom: 4rem;
 	color: #fff !important;
+	text-align: right !important;
+}
+
+.slider-custom {
+	text-align: center;
 }
 
 .header h2 {
+	text-align: right;
 	color: #fff !important;
 	margin-top: 14rem !important;
-}
-
-.header .p-large {
-	margin-bottom: 2rem;
-	color: #fff !important;
 }
 
 .header .btn-solid-lg {
@@ -688,14 +689,8 @@ input[type='checkbox'] {
 /*    Customers     */
 /********************/
 
-
-.slider-custom {
-	padding-bottom: 3rem;
-	text-align: center;
-}
-
 .slider-custom h4 {
-	margin-top: 8rem;
+	margin-top: 3rem;
 	margin-bottom: 0.25rem;
 	color: #222222;
 }
@@ -3074,6 +3069,12 @@ a:hover.back-to-top {
 	iframe {
 		width: 100% !important;
 	}
+
+	.slider-custom {
+		padding-bottom: 10rem !important;
+		text-align: center;
+	}
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -3089,8 +3090,7 @@ a:hover.back-to-top {
 
 	.card-news .btn{
 		padding: 5px;
-	}
-
+	}	
 	
 .border-solid{
 	border: 1px solid #00a593;
