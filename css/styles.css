@@ -258,7 +258,7 @@ a:hover {
 
 .btn-solid-sm {
 	display: inline-block;
-	padding: 1rem 1.5rem 1rem 1.5rem;
+	padding: .8rem 1.5rem 1rem 1.5rem;
 	border: 1px solid #00a593;
 	border-radius: 32px;
 	background-color: #00a593;
@@ -1730,7 +1730,7 @@ a:hover.back-to-top {
 
 .card-image-clearfix {
 	height: 210px !important;
-	width: 100%;
+	width: 400px;
 }
 
 .image-clearfix {
@@ -3161,8 +3161,6 @@ a:hover.back-to-top {
 		margin-bottom: 0.25rem;
 		color: #222222;
 	}
-	
-
 
 }
 
@@ -3179,6 +3177,14 @@ a:hover.back-to-top {
 	.card-news .btn{
 		padding: 5px;
 	}	
+		
+	.image-clearfix {
+		height: auto !important;
+		width: auto !important;
+		bottom: unset;
+		position: relative;
+	}
+
 	
 .border-solid{
 	border: 1px solid #00a593;
