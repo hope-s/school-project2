@@ -691,7 +691,7 @@ input[type='checkbox'] {
 
 /* custom slider css */
 .slider-custom h4 {
-	margin-top: 3rem;
+	margin-top: -5rem;
 	margin-bottom: 0.25rem;
 	color: #222222;
 }
@@ -2692,7 +2692,6 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
-
 	.border-solid{
 		border: 1px solid #00a593;
 		border-radius: 30px 1px 30px 5px;
@@ -3092,6 +3091,15 @@ a:hover.back-to-top {
 		margin-top: 6rem;
 	}
 
+	.basic-4 .swiper-container {
+		height: 400px !important;
+	}
+
+	.basic-4 .swiper-container img {
+		/* height: 50%; */
+	}
+
+
 	/* end of details 3 */
 
 
@@ -3147,13 +3155,21 @@ a:hover.back-to-top {
 		text-align: center;
 	}
 
+	/* custom slider css */
+	.slider-custom h4 {
+		margin-top: 6rem;
+		margin-bottom: 0.25rem;
+		color: #222222;
+	}
+	
+
+
 }
 
 @media only screen and (max-width: 992px) {
 	.slider-custom {
 		margin-top: 13rem;
-	}
-
+	}	
 	/* card news */
 	.card-news{
 		margin-left: 3rem !important;

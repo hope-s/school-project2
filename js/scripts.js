@@ -129,10 +129,10 @@
     }
   });
 
-  /* Honor slider */
-  var cardSlider = new Swiper('.honor-slider', {
+  // images-slider
+  var cardSlider = new Swiper('.images-slider', {
     autoplay: {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: false
     },
     loop: true,
@@ -143,12 +143,12 @@
     slidesPerView: 2,
     spaceBetween: 40,
     breakpoints: {
-      // when window is <= 991px
-      991: {
+      992: {
         slidesPerView: 1
       }
     }
   });
+  // end of images-slider
 
 
   // swiper about
