@@ -58,10 +58,10 @@
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../../../images/course3.jpg) 
+    background-image: url(../../../images/school-1.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../../../images/course1.jpg);
+    background-image: url(../../../images/course3.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -69,7 +69,7 @@
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../../../images/school-1.jpg);
+    background-image: url(../../../images/course1.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
