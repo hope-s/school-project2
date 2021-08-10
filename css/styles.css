@@ -3198,10 +3198,7 @@ a:hover.back-to-top {
 	.image-clearfix {
 		height: auto !important;
 		width: auto !important;
-		bottom: unset;
-		position: relative;
 	}
-
 	
 .border-solid{
 	border: 1px solid #00a593;
@@ -3213,6 +3210,11 @@ a:hover.back-to-top {
 }
 
 	/* end of card news */
+}
+
+@media only screen and (max-width: 768px) {
+	
+
 }
 
 /* end of min-width 1200px */
