@@ -40,9 +40,9 @@ html {
 	height: 100%;
 }
 
-/* body {
+body {
 	overflow-x: hidden !important;
-} */
+}
 
 body,
 p {
@@ -258,7 +258,7 @@ a:hover {
 
 .btn-solid-sm {
 	display: inline-block;
-	padding: .8rem 1.5rem 1rem 1.5rem;
+	padding: 1.2rem 1.5rem 1rem 1.5rem;
 	border: 1px solid #00a593;
 	border-radius: 32px;
 	background-color: #00a593;
@@ -335,6 +335,10 @@ a:hover {
 	background-color: #00a593;
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.call-btn{
+	padding: .7rem !important;
 }
 
 .form-group {
@@ -1134,6 +1138,7 @@ input[type='checkbox'] {
 .basic-3 {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+	background-color: #fbfbfb;
 }
 
 .basic-3 .text-container {
@@ -1159,7 +1164,6 @@ input[type='checkbox'] {
 /*     Details 4     */
 /*********************/
 .basic-4 {
-	padding-top: 5rem;
 	padding-bottom: 9.5rem;
 	background: url('../images/details-3-background.png') center center no-repeat;
 	background-size: cover;
@@ -1207,7 +1211,8 @@ input[type='checkbox'] {
 .basic {
 	padding-top: 5rem;
 	padding-bottom: 9.5rem;
-	background: url('../images/details-3-background.png') center center no-repeat;
+	background-color: #fbfcfc;
+	/* background: url('../images/details-3-background.png') center center no-repeat; */
 	background-size: cover;
 }
 
@@ -1591,6 +1596,18 @@ a:hover.back-to-top {
 
 .card-news .image-news-3 {
 	background: url(../images/news-Image-3.jpg) center / cover no-repeat;
+}
+
+.card-news .image-news-4 {
+	background: url(../images/news-Image-4.jpg) center / cover no-repeat;
+}
+
+.card-news .image-news-5 {
+	background: url(../images/news-Image-5.jpg) center / cover no-repeat;
+}
+
+.card-news .image-news-6 {
+	background: url(../images/news-Image-6.jpg) center / cover no-repeat;
 }
 
 .card-news .card-header-news {
@@ -2850,7 +2867,7 @@ a:hover.back-to-top {
 	}
 
 	.basic-2 .text-container {
-		margin-top: 3.75rem;
+		margin-top: 3rem;
 	}
 
 	.basic-2 h2 {
@@ -3088,7 +3105,7 @@ a:hover.back-to-top {
 
 	/* Details 3 */
 	.basic-4 .text-container {
-		margin-top: 6rem;
+		margin-top: 7rem;
 	}
 
 	.basic-4 .swiper-container {
