@@ -524,8 +524,6 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	width: 100% !important;
-	overflow: hidden !important;
 	border-bottom: 1px solid #e3e8ec;
 	background-color: #ffffff;
 	font-weight: 600;
