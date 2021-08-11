@@ -607,6 +607,35 @@ input[type='checkbox'] {
 	}
 }
 
+/*****************/
+/*    Header     */
+/*****************/
+.header {
+	padding-top: 7rem;
+	padding-bottom: 2.5rem;
+	background: url('../images/header-background.png') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.header .text-container {
+	margin-bottom: 4rem;
+}
+
+.header .h-large {
+	margin-bottom: 1.5rem;
+}
+
+.header .p-large {
+	margin-bottom: 2rem;
+}
+
+.header .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 0.75rem;
+}
+
+
 .navbar .dropdown-menu {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
@@ -669,7 +698,6 @@ input[type='checkbox'] {
 
 .header .text-container {
 	margin-bottom: 4rem;
-	color: #fff !important;
 	text-align: right !important;
 }
 
@@ -3044,7 +3072,7 @@ a:hover.back-to-top {
 
 	.header img {
 		position: absolute;
-		left: 5rem;
+		right: 5rem;
 	}
 
 	/* end of header */
