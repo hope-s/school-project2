@@ -8040,8 +8040,8 @@ button.bg-dark:focus {
   width: 100%;
   position: fixed;
   top: 0;
-  right: auto;
-  left: auto;
+  /* right: 0; */
+  /* left: 0; */
   z-index: 1030;
 }
 
