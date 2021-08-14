@@ -1313,6 +1313,7 @@ input[type='checkbox'] {
 
 .basic h4 {
 	margin-bottom: 1.5rem;
+	margin-top: 10px;
 }
 
 .basic .image-container {
@@ -2960,7 +2961,7 @@ a:hover.back-to-top {
 
 	/* Introduction */
 	.basic-1 .text-container {
-		margin-top: 5rem;
+		margin-top: 2rem;
 	}
 
 	/* end of introduction */
