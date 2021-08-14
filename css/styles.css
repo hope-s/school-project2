@@ -43,7 +43,7 @@ Colors:
 /**************************/
 body,
 html {
-	width: 100% !important;
+	width: 102% !important;
 	height: 100%;
 }
 
@@ -52,8 +52,8 @@ body{
 	left: 0 !important;
 	right: 0 !important;
 }	
-body, footer, nav, html{
 
+body{
 	overflow-x: hidden !important;
 }
 
