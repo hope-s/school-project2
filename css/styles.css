@@ -51,8 +51,6 @@ body{
 	overflow-x: hidden !important;
 }
 
-
-
 body,
 p {
 	color: #515867;
@@ -434,6 +432,9 @@ a:hover {
 
 /* end of pulse*/
 
+.fixed-top{
+	left: 10px !important;
+}
 
 .call-btn {
 	padding: .7rem !important;
