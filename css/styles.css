@@ -43,17 +43,12 @@ Colors:
 /**************************/
 body,
 html {
-	width: 98% !important;
+	width: 100% !important;
 	height: 100%;
 }
 
 body{
 	overflow-x: hidden !important;
-}
-
-
-.fixed-top{
-	left: 10px;
 }
 
 body,
