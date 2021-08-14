@@ -470,8 +470,7 @@ a:hover {
 .form-control-input,
 .form-control-select {
 	display: block;
-	/* needed for proper display of the label in Firefox, IE, Edge */
-	width: 100%;
+	/*neededforproperdisplayofthelabelinFirefox,IE,Edge*/width: 100%;
 	padding-top: 1.125rem;
 	padding-bottom: 0.125rem;
 	padding-left: 1.625rem;
@@ -483,7 +482,11 @@ a:hover {
 	line-height: 1.875rem;
 	transition: all 0.2s;
 	-webkit-appearance: none;
-	/* removes inner shadow on form inputs on ios safari */
+		/* removes inner shadow on form inputs on ios safari */:;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
 }
 
 .form-control-select {
@@ -1985,6 +1988,8 @@ input[type='checkbox'] {
 	-o-transition: all 0.3s ease;
 	visibility: hidden;
 	text-decoration: none;
+	white-space: nowrap;
+
 }
 
 .card .wrapper-new:hover .btn-primary {
