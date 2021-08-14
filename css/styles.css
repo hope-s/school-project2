@@ -33,7 +33,7 @@ Table Of Contents:
 Colors:
 - Buttons - #057c79
 - Headings text - navy blue #1e266d
-- Body text - dark gray #515867, #00a593
+- Body text - dark gray #515867, #00a593, #f9f9f9
 - Backgrounds - light gray #f9f9f9, #00a593, #fd1d1d , #1d79fb, #00accd, #74c4c6
 ******************************************/
 
@@ -82,7 +82,7 @@ h3 {
 
 
 h4 {
-	color: #00a593;
+	color: #00a593 !important;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2.125rem;
@@ -985,7 +985,7 @@ input[type='checkbox'] {
 	margin-bottom: 3.5rem;
 }
 
-.basic-1 h2 {
+.basic-1 h4 {
 	margin-bottom: 1.5rem;
 }
 
@@ -1077,7 +1077,7 @@ input[type='checkbox'] {
 	background-size: cover;
 }
 
-.basic-2 h2 {
+.basic-2 h4 {
 	margin-bottom: 1.5rem;
 }
 
@@ -1241,7 +1241,7 @@ input[type='checkbox'] {
 	text-align: center;
 }
 
-.basic-3 h2 {
+.basic-3 h4 {
 	margin-bottom: 1.5rem;
 }
 
@@ -1264,7 +1264,7 @@ input[type='checkbox'] {
 	background-size: cover;
 }
 
-.basic-4 h2 {
+.basic-4 h4 {
 	margin-bottom: 1.5rem;
 }
 
@@ -1287,7 +1287,7 @@ input[type='checkbox'] {
 	background-size: cover;
 }
 
-.basic-5 h2 {
+.basic-5 h4 {
 	margin-bottom: 1.5rem;
 }
 
@@ -1311,7 +1311,7 @@ input[type='checkbox'] {
 	background-size: cover;
 }
 
-.basic h2 {
+.basic h4 {
 	margin-bottom: 1.5rem;
 }
 
@@ -1700,7 +1700,7 @@ input[type='checkbox'] {
 	background-color: #00a593;
 }
 
-.slider-2 .h2-heading {
+.slider-2 .h4-heading {
 	margin-bottom: 1rem;
 	color: #ffffff;
 	text-align: center;
@@ -3289,6 +3289,15 @@ a:hover.back-to-top {
 	}
 }
 @media only screen and (max-width: 1200px) {
+	.basic-1 img {
+		margin-bottom: 0rem;
+	}
+	
+	.basic-1 .image-container{
+		margin-top: .5rem !important;
+	
+	}
+	
 	iframe {
 		width: 100% !important;
 	}

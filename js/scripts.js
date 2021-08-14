@@ -157,7 +157,7 @@
     let middleOfSlider = numSlides / 2;
     let xCoef = 300 * ((middleOfSlider - centerSlide) / middleOfSlider);
 
-    if ($(window).width() <= 450) {
+    if ($(window).width() <= 250) {
       xCoef = 0;
     }
 
@@ -322,7 +322,7 @@ function imageZoom() {
 imageZoom();
 // end  of  zoom gallery
 
-
+// blog slider
 var swiper = new Swiper('.blog-slider', {
   spaceBetween: 30,
   effect: 'fade',
@@ -336,6 +336,7 @@ var swiper = new Swiper('.blog-slider', {
     clickable: true,
   }
 });
+// end of blog slider
 
 // loader
 $(window).on("load", function () {
