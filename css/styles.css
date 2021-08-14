@@ -43,15 +43,9 @@ Colors:
 /**************************/
 body,
 html {
-	width: 102% !important;
+	width: 100% !important;
 	height: 100%;
 }
-
-body{
-	position: relative !important;
-	left: 0 !important;
-	right: 0 !important;
-}	
 
 body{
 	overflow-x: hidden !important;
