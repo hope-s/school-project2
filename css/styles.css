@@ -1082,9 +1082,6 @@ input[type='checkbox'] {
 	opacity: 0.8;
 }
 
-.cards-1 .read-more {
-	/* color: #ffffff; */
-}
 
 .cards-1 .read-more .fas {
 	color: #ffffff;
@@ -2472,8 +2469,6 @@ a:hover.back-to-top {
 	background-color: #f9f9f9;
 }
 
-
-
 /* end of slider about school */
 #slider-container {
 	max-height: 100vh;
@@ -3306,7 +3301,6 @@ a:hover.back-to-top {
 		flex-wrap: wrap;
 	}
 }
-
 /* end of profile card */
 
 /* slider-custom */
@@ -3324,7 +3318,7 @@ a:hover.back-to-top {
 		padding-bottom: 10rem !important;
 		text-align: center;
 	}
-
+	
 	/* custom slider css */
 	.slider-custom h4 {
 		margin-top: 6rem;
