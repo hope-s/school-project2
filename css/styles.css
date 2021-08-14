@@ -45,6 +45,8 @@ body,
 html {
 	width: 100% !important;
 	height: 100%;
+	left: 0 !important;
+	right: 0 !important;
 }
 
 body{
