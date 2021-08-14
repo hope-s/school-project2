@@ -43,13 +43,13 @@ Colors:
 /**************************/
 body,
 html {
-	width: 101% !important;
+	width: 100% !important;
 	height: 100%;
 }
 
-/* body{
+body{
 	overflow-x: hidden !important;
-} */
+}
 
 body,
 p {
