@@ -3294,10 +3294,6 @@ a:hover.back-to-top {
 	.slider-custom {
 		margin-top: 13rem;
 	}
-
-	.navbar{
-		width: 90% !important;
-	}
 }
 @media only screen and (max-width: 1200px) {
 	.basic-1 img {
