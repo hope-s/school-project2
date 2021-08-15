@@ -8048,7 +8048,7 @@ button.bg-dark:focus {
   position: fixed;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 20px;
   z-index: 1030;
 }
 
