@@ -8045,11 +8045,11 @@ button.bg-dark:focus {
 }
 
 .fixed-bottom {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 50px;
-  z-index: 1030;
+  position: fixed !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: 50px !important;
+  z-index: 1030 !important;
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
