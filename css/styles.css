@@ -602,6 +602,7 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
+	overflow-x: hidden !important;
 	border-bottom: 1px solid #e3e8ec;
 	background-color: #ffffff;
 	font-weight: 600;
