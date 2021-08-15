@@ -47,10 +47,6 @@ html {
 	height: 100%;
 }
 
-body{
-	overflow-x: hidden !important;
-}
-
 body,
 p {
 	color: #515867;
@@ -3320,3 +3316,9 @@ a:hover.back-to-top {
 	}
 }
 /* end of  slider-custom */
+
+body{
+	overflow-x: hidden !important;
+}
+
+
