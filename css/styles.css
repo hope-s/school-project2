@@ -52,6 +52,11 @@ p {
 	color: #515867;
 }
 
+/* body{
+	overflow-x: hidden !important;
+} */
+
+
 h1 {
 	color: #00a593;
 	font-weight: 700;
@@ -3316,9 +3321,4 @@ a:hover.back-to-top {
 	}
 }
 /* end of  slider-custom */
-
-body{
-	overflow-x: hidden !important;
-}
-
 
