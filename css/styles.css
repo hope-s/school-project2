@@ -45,7 +45,6 @@ body,
 html {
 	width: 100% !important;
 	height: 100%;
-	overflow-x: hidden !important;
 }
 
 body,
@@ -53,9 +52,9 @@ p {
 	color: #515867;
 }
 
-/* body{
+body{
 	overflow-x: hidden !important;
-} */
+}
 
 
 h1 {
