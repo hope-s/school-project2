@@ -2465,7 +2465,7 @@ a:hover.back-to-top {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	/* width: 200vw; */
+	width: 200vw;
 	margin-top: 6rem;
 }
 
