@@ -52,7 +52,7 @@ p {
 	color: #515867;
 }
 
-body, .navbar , .navbar-expand-lg,  .fixed-top, .navbar-ligh{
+body{
 	overflow-x: hidden !important;
 }
 
