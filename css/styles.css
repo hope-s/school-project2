@@ -47,19 +47,6 @@ html {
 	height: 100%;
 }
 
-<<<<<<< HEAD
-=======
-body{
-	position: relative !important;
-	left: 0 !important;
-	right: 0 !important;
-}	
-
-body{
-	overflow-x: hidden !important;
-}
-
->>>>>>> parent of 9951c17 (add)
 body,
 p {
 	color: #515867;
@@ -2960,7 +2947,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		overflow-y: hidden !important;
+		overflow-x: hidden !important;
 		padding-top: 10.75rem;
 		padding-bottom: 13rem;
 	}
