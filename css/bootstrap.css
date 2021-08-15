@@ -4547,7 +4547,7 @@ input[type="button"].btn-block {
     flex-wrap: nowrap;
   }
   .navbar-expand-lg .navbar-nav-scroll {
-    overflow-x: hidden;
+    overflow: visible;
   }
   .navbar-expand-lg .navbar-collapse {
     display: -ms-flexbox !important;
