@@ -2960,7 +2960,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		overflow-x: hidden !important;
+		overflow-y: hidden !important;
 		padding-top: 10.75rem;
 		padding-bottom: 13rem;
 	}
