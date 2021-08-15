@@ -43,10 +43,23 @@ Colors:
 /**************************/
 body,
 html {
-	width: 100% !important;
+	width: 102% !important;
 	height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+body{
+	position: relative !important;
+	left: 0 !important;
+	right: 0 !important;
+}	
+
+body{
+	overflow-x: hidden !important;
+}
+
+>>>>>>> parent of 9951c17 (add)
 body,
 p {
 	color: #515867;
